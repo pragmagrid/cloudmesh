@@ -1,0 +1,23 @@
+# build directory
+RPMS/
+SOURCES/
+BUILD/
+SPECS/
+disk*/
+*.iso
+
+_os
+_arch
+_distribution
+.rpmmacros
+python.mk
+bootstrap.py
+
+# ignore version, rules  files
+Rules-*.mk
+Rules.mk
+Rolls.mk
+roll*.mk
+roll-*.*
+rocks-*.mk
+

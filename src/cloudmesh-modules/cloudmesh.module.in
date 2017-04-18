@@ -1,0 +1,15 @@
+#%Module1.0
+
+proc ModulesHelp { } {
+        global cloudmeshversion 
+
+        puts stderr "\tCloudmesh Tools from @ENVDIR@"
+}
+
+module-whatis   "Cloudmesh"
+
+module load opt-python
+
+prepend-path  PATH        @ENVDIR@/bin
+puts stdout "source @ENVDIR@/bin/activate"
+

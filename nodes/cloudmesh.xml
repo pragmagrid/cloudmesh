@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+
+<kickstart>
+
+
+	<description>
+	Your cloudmesh roll description here
+	</description>
+
+	<copyright>
+	Copyright (c) 2000 - 2014 The Regents of the University of California.
+	All rights reserved. Rocks(r) 6.2 www.rocksclusters.org
+	
+	</copyright>
+
+	<changelog>
+	$Log$
+	</changelog>
+
+	<package>opt-pip-27</package>
+	<package>opt-virtualenv-27</package>
+	<package>opt-cloudmesh-client</package>
+	<package>opt-cloudmesh-env</package>
+	<package>cloudmesh-module</package>
+
+</kickstart>

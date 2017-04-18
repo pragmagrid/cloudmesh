@@ -1,0 +1,4 @@
+NAME		= opt-pip-27
+VERSION		= 9.0.1
+ARCHIVENAME	= pip
+RELEASE		= 0
